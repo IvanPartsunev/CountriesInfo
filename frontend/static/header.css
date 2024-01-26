@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    min-width: 98%;
+    margin: 0 auto;
+    /* text-shadow: 1px 1px 8px rgba(0,0,0,0.56); */
+    border-radius: 0.5em;
+    margin-bottom: 3em;
+}
+
+

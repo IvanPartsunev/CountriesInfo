@@ -1,0 +1,58 @@
+html {
+  font: 16px/1.2 "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  padding: 0.3em 1em;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  html {
+    font: 14px/1.1 "Montserrat", sans-serif;
+  }
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  #div-img {
+    margin: 0 auto;
+    max-width: 60%;
+  }
+
+  #info-block ul li {
+    margin-left: 2em;
+  }
+
+}
+
+img {
+  display: block;
+  max-width: 40%;
+  margin: 0 auto;
+  margin-block: 3em;
+  border: 1px solid black;
+  border-radius: 0.3em;
+}
+
+header,
+footer,
+#search-field,
+#country-name,
+#country-info ul,
+#currency,
+#div-img img {
+  box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.6);
+}
+
+
